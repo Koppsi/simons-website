@@ -1,0 +1,20 @@
+.text-col {
+    display: flex;
+    align-items: center;
+}
+
+.project-row {
+    row-gap: 30px;
+}
+
+.project-card {
+    margin-bottom: 30px;
+    transition: 0.55s;
+    padding: 1rem;
+}
+
+.project-card:hover {
+    transform: scale(1.04);
+    box-shadow: 9px 9px 18px rgba(0,0,0,.15);
+    cursor: pointer;
+}
