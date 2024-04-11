@@ -8,13 +8,13 @@ const skillsProgrammingLanguagesData = {
       label: 'Kenntnisse in Prozent',
       data: [75, 73, 70, 62, 58, 50, 48, 45, 25, 20, 20],
       backgroundColor: [
-          'rgba(75, 192, 192, 0.6)',
-          'rgba(54, 162, 235, 0.6)',
+          'rgba(67, 127, 199, 0.6)',
+          'rgba(179, 123, 164, 0.6)',
           // Weitere Farben für die anderen Balken
       ],
       borderColor: [
-          'rgba(75, 192, 192, 1)',
-          'rgba(54, 162, 235, 1)',
+          'rgba(67, 127, 199, 1)',
+          'rgba(179, 123, 164, 1)',
           // Weitere Farben für die anderen Balken
       ],
       borderWidth: 1
@@ -22,18 +22,18 @@ const skillsProgrammingLanguagesData = {
 };
 
 const skillsSoftwareData = {
-  labels: ['Unity', 'Word', 'LateX', 'Figma', 'PowerPoint', 'Excel', 'Photoshop/Gimp', 'Adobe Xd', 'Davinci Resolve'],
+  labels: ['Word', 'LateX', 'Unity', 'Figma', 'PowerPoint', 'Excel', 'Photoshop/Gimp', 'Adobe Xd', 'Davinci Resolve'],
   datasets: [{
       axis: 'y',
       label: 'Kenntnisse in Prozent',
-      data: [70, 68, 68, 60, 55, 45, 40, 40, 28],
+      data: [68, 68, 60, 60, 55, 50, 40, 40, 32],
       backgroundColor: [
-          'rgba(75, 192, 192, 0.6)',
-          'rgba(54, 162, 235, 0.6)'
+          'rgba(67, 127, 199, 0.6)',
+          'rgba(179, 123, 164, 0.6)'
       ],
       borderColor: [
-          'rgba(75, 192, 192, 1)',
-          'rgba(54, 162, 235, 1)'
+          'rgba(67, 127, 199, 1)',
+          'rgba(179, 123, 164, 1)'
       ],
       borderWidth: 1
   }]

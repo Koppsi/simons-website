@@ -2,17 +2,17 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Meine Fähigkeiten</title>
+  <title>Meine Website</title>
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/skills.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles/blog.css">
   <script src="scripts/script.js"></script>
+  <script src="scripts/change_language.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  
+
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Startseite</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Startseite</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="about_me.html">Über mich</a>
@@ -34,13 +34,13 @@
                   <a class="nav-link" href="my_projects.html">Projekte</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="skills.html">Fähigkeiten und Technologien</a>
+                  <a class="nav-link" href="skills.html">Fähigkeiten und Technologien</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="contact.html">Kontakt</a>
               </li>
             </ul>
-            <button class="btn btn-primary" id="button-change-language" data-current-language="deutsch" data-current-site="startseite">
+            <button class="btn btn-custom-outline" id="button-change-language" data-current-language="deutsch" data-current-site="startseite">
               English
             </button>
         </div>
@@ -53,38 +53,70 @@
     <div class="container-fluid start-container">
       <div class="text-mask">
         <h1 class="hero-heading">
-          Meine Fähigkeiten
+          Bachelor Thesis
         </h1>
       </div>
-      <img class="background-image" src="assets/Scenery3.jpg" alt="Background-Picture">
+      <img class="background-image" src="assets/City.png" alt="Background-Picture">
     </div>
   </section>
 
   <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 skills-col">
-          <h2>Programmiersprachen/Frameworks</h2>
-          <canvas id="skillsProgrammingLanguagesChart"></canvas>
+    <div class="container blog-container">
+        <div class="row">
+            <div class="col-12 col-md-6 text-col">
+                <h2>City in Unity</h2>
+            </div>
+
+            <div class="col-12 col-md-6 image-col">
+                <img class="image" src="assets/City.png" alt="City">
+            </div>
         </div>
-      </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 image-col">
+                <img class="image" src="assets/City.png" alt="City">
+            </div>
+            <div class="col-12 col-md-6 text-col">
+                <h2>City in Unity</h2>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 text-col">
+                <h2>City in Unity</h2>
+            </div>
+
+            <div class="col-12 col-md-6 image-col">
+                <img class="image" src="assets/City.png" alt="City">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 image-col">
+                <img class="image" src="assets/City.png" alt="City">
+            </div>
+            <div class="col-12 col-md-6 text-col">
+                <h2>City in Unity</h2>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 text-col">
+                <h2>City in Unity</h2>
+            </div>
+
+            <div class="col-12 col-md-6 image-col">
+                <img class="image" src="assets/City.png" alt="City">
+            </div>
+        </div>
     </div>
   </section>
 
-  <section style="background-color: #edf6ff; padding-bottom: 3rem; margin-top: 3rem;">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 skills-col">
-          <h2>Programme</h2>
-          <canvas id="skillsSoftwareChart"></canvas>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
- <script src="scripts/skill_chart.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 <footer class="bg-body-tertiary py-4">

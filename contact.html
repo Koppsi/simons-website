@@ -5,23 +5,91 @@
   <title>Kontakt</title>
   <link rel="stylesheet" href="styles/style.css">
   <script src="scripts/script.js"></script>
-  <script src="scripts/navbar.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="nav-container"></div>
- <h1>Kontaktseite</h1>
- <p>Hier finden Sie meine Kontaktdaten</p>
- <a href="https://www.facebook.com/IhrBenutzername" class="social-button facebook">Facebook</a>
- <a href="https://twitter.com/IhrBenutzername" class="social-button twitter">Twitter</a>
-<!-- Weitere Buttons hier -->
 
-<div class="social-icons">
-    <a href="https://www.facebook.com/IhrBenutzername"><i class="fab fa-facebook"></i></a>
-    <a href="https://twitter.com/Simon79999"><i class="fab fa-twitter"></i></a>
-    <!-- Weitere Icons hier -->
-</div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/logo1.png" alt="Logo" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Startseite</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about_me.html">Über mich</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="my_projects.html">Projekte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skills.html">Fähigkeiten und Technologien</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Kontakt</a>
+            </li>
+            </ul>
+            <button class="btn btn-primary" id="button-change-language" data-current-language="deutsch" data-current-site="startseite">
+              English
+            </button>
+        </div>
 
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container-fluid start-container">
+      <div class="text-mask">
+        <h1 class="hero-heading">
+          Kontakt
+        </h1>
+      </div>
+      <img class="background-image" src="assets/Scenery3.jpg" alt="Background-Picture">
+    </div>
+  </section>
+
+  <section style="background-color: #edf6ff; padding-bottom: 3rem;">
+    <div class="container">
+      <div class="row">
+        <div class="col heading-col">
+          <h2>Kontaktiere mich auf Social Media</h2>
+        </div>
+      </div>
+      
+      <div class="row icon-row">
+        <div class="col-12 col-md-2 icon-col">
+          <a href="https://github.com/Koppsi">
+            <img class="icon" src="assets/317712_code repository_github_repository_resource_icon.png" alt="GitHubIcon">
+          </a>
+        </div>
+        <div class="col-12 col-md-2 icon-col">
+          <a href="https://www.linkedin.com/in/simon-kopp-749aba261/">
+            <img class="icon" src="assets/5296501_linkedin_network_linkedin logo_icon.png" alt="LinkedInIcon">
+          </a>
+        </div>
+        <div class="col-12 col-md-2 icon-col">
+          <a href="https://www.instagram.com/sim_ko76/">
+            <img class="icon" src="assets/1298747_instagram_brand_logo_social media_icon.png" alt="InstagramIcon">
+          </a>
+        </div>
+        <div class="col-12 col-md-2 icon-col">
+          <a href="mailto:simon_kopp@web.de">
+            <img class="icon" src="assets/4550857_email_gmail_mail_sending_yahoo_icon.png" alt="MailIcon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
