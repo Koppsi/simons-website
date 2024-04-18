@@ -5,15 +5,45 @@ body {
     #6daffe
     #edf6ff
     #ffffff
-    #b9732f
+    #B37BA4
     */
     background-color: #ffffff!important;
     margin: 0;
     overflow-x: hidden;
+    font-family: "Kanit", sans-serif!important;
+    font-weight: 400!important;
+    font-style: normal;
+}
+
+h1, h2 {
+    font-weight: 600!important;
 }
 
 section {
     padding: 2rem 0;
+}
+
+button {
+    border: 0;
+    background-color: unset;
+}
+
+.language-col {
+    display: flex;
+    justify-content: end;
+}
+
+.langauge-text {
+    margin-bottom: 0!important;
+    margin-top: 10px!important;
+}
+
+.langauge-text-link {
+    color: #6daffe!important;
+}
+
+.language-border {
+    border-left: 1px solid black;
 }
 
 .skills-page,
@@ -27,15 +57,32 @@ img {
 }
 
 .sidebar-col {
-    border: 3px solid black;
+    border: 1px solid rgba(0,0,0,.125);
     padding: 15px;
     background-color: #ffffff;
-    height: 20vw;
+    max-height: 110px;
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 30px;
     border-radius: 1rem;
+
+    @media (max-width: 767.98px) {
+        display: none;
+    }
+}
+
+.project-content-of-table {
+    list-style-type: circle;
+    li {
+        cursor: pointer;
+    }
+}
+
+.footer-col {
+    @media (max-width: 767.98px) {
+        padding-bottom: 30px;
+    }
 }
 
 .content-row {
@@ -94,9 +141,9 @@ button {
   }
 
 .skillset-row {
-
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
 }
   
   .single-chart {
@@ -222,6 +269,8 @@ a:hover {
 
 .teaser-name {
     margin-bottom: 0.25rem;
+    color: #B37BA4;
+    font-size: 30px;
 }
 
 .icon-circle {
@@ -300,11 +349,20 @@ a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .project-item-row {
-    margin-bottom: 4rem;
+    margin-bottom: 30px;
     row-gap: 30px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.project-heading-margin {
+    margin-top: 4rem!important;
 }
 
 .project-card {
@@ -316,15 +374,14 @@ a:hover {
 }
 
 .project-card:hover {
-    transform: scale(1.04);
     box-shadow: 9px 9px 18px rgba(0,0,0,.15);
-    cursor: pointer;
 }
 
 .project-images {
     border-radius: 1rem;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .project-teaser {
@@ -332,6 +389,12 @@ a:hover {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0;
+}
+
+.project-card-heading {
+    color: #B37BA4;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -740,3 +803,170 @@ a:hover {
         top: 36%;
     }
 }
+
+
+
+.tajawal-extralight {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .tajawal-light {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .tajawal-regular {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tajawal-medium {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tajawal-bold {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tajawal-extrabold {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .tajawal-black {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  

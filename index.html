@@ -8,12 +8,27 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&family=Tajawal:wght@200;300;400;500;700;800;900&family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="kanit-medium">
   <div class="wrapper">
 
     <div class="page start-page">
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 language-col">
+            <p class="langauge-text" style="padding-right: 10px;">DE</p>
+            <a class="langauge-text-link langauge-text language-border" href="" style="padding-left: 10px;">EN</a>
+          </div>
+        </div>
+      </div>
+
+
       <section>
         <div class="container">
           <div class="row content-row">
@@ -22,7 +37,7 @@
                 <p class="teaser-name"> 
                   Simon Kopp
                 </p>
-                <h1>Medieninformatiker, Web Developer</h1>
+                <h1>Medieninformatiker</h1>
               </div>
     
             </div>
@@ -195,7 +210,7 @@
         <div class="container">
           <div class="row">
             <div class="col" style="display: flex; justify-content: end;">
-              <button id="moveContentBackToRight" style="background-color: #6daffe; border-radius: 50%;">              
+              <button id="moveContentBackToRight">              
                 <span class="material-symbols-outlined material-symbols back-symbol">
                   arrow_forward
                 </span>
@@ -203,7 +218,7 @@
 
             </div>
           </div>
-          <div class="row">
+          <div class="row" style="margin-top: 2rem;">
             <div class="col-12 skills-col">
               <h2 class="center-heading heading-main-page">
                 Programmiersprachen und Frameworks
@@ -353,7 +368,7 @@
           </div>
 
           <div class="row skillset-row">
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-3">
               <svg viewBox="0 0 36 36" class="circular-chart lightblue">
                 <path class="circle-bg"
                   d="M18 2.0845
@@ -370,7 +385,7 @@
               </svg>
             </div>
             
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-3">
               <svg viewBox="0 0 36 36" class="circular-chart lightblue">
                 <path class="circle-bg"
                   d="M18 2.0845
@@ -387,7 +402,7 @@
               </svg>
             </div>
           
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-3">
               <svg viewBox="0 0 36 36" class="circular-chart lightblue">
                 <path class="circle-bg"
                   d="M18 2.0845
@@ -409,7 +424,7 @@
         </div>
       </section>
     
-      <section style="background-color: #edf6ff; padding-bottom: 3rem; margin-top: 3rem;">
+      <section>
         <div class="container">
           <div class="row">
             <div class="col-12 skills-col">
@@ -565,7 +580,7 @@
 
           <div class="row skillset-row">         
           
-            <div class="col-6 col-md-12">
+            <div class="col-6 col-md-3">
               <svg viewBox="0 0 36 36" class="circular-chart lightblue">
                 <path class="circle-bg"
                   d="M18 2.0845
@@ -586,142 +601,334 @@
           
         </div>
       </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 skills-col">
+              <h2 class="center-heading heading-main-page">
+                Sprachen
+              </h2>
+              <!-- <canvas id="skillsSoftwareChart"></canvas> -->
+            </div>
+          </div>
+
+          <div class="row skillset-row">
+            <div class="col-6 col-md-3">
+              <svg viewBox="0 0 36 36" class="circular-chart purple">
+                <path class="circle-bg"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle"
+                  stroke-dasharray="100, 100"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.35" class="percentage">Deutsch</text>
+              </svg>
+            </div>
+            
+            <div class="col-6 col-md-3">
+              <svg viewBox="0 0 36 36" class="circular-chart purple">
+                <path class="circle-bg"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle"
+                  stroke-dasharray="80, 100"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.35" class="percentage">Englisch</text>
+              </svg>
+            </div>
+
+          </div>
+
+          <div class="row skillset-row">
+            
+            <div class="col-6 col-md-3">
+              <svg viewBox="0 0 36 36" class="circular-chart lightblue">
+                <path class="circle-bg"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle"
+                  stroke-dasharray="25, 100"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.35" class="percentage">Französisch</text>
+              </svg>
+            </div>
+          
+            <div class="col-6 col-md-3">
+              <svg viewBox="0 0 36 36" class="circular-chart lightblue">
+                <path class="circle-bg"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle"
+                  stroke-dasharray="10, 100"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.35" class="percentage">Chinesisch</text>
+              </svg>
+            </div>
+
+          </div>
+          
+        </div>
+      </section>
     
     </div>
     
     <div class="page projects-page">
 
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <button id="moveContentBackToLeft" style="background-color: #6daffe; border-radius: 50%;">
-                <span class="material-symbols-outlined material-symbols back-symbol">
-                  arrow_back
-                </span>
-              </button>
-            </div>
+      <div class="container" style="margin-top: 2rem;">
+        <div class="row">
+          <div class="col">
+            <button id="moveContentBackToLeft">
+              <span class="material-symbols-outlined material-symbols back-symbol">
+                arrow_back
+              </span>
+            </button>
           </div>
         </div>
-      </section>
+      </div>
 
       <section>
         <div class="container">
           <div class="row project-row">
             <div class="col-md-9 main-col">
   
+              <div class="row project-item-row row-reverse">
+                <h2 class="center-heading project-item-heading" id="project-heading-1">Virtual Reality Studie mit Unity</h2>
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Bachelorarbeit über eHMIs</h3>
+                    <p>Für meine Bachelorarbeit habe ich ein Studie durchgeführt zum Thema eHMIs (external Human-Machine-Interfaces). Das sind außen an Fahrzeugen angebrachte Displays oder Lichter, die in Zukunft bei komplett autonom fahrenden fahrzeugen dabei helfen sollen, mit verschiedenen Verkehrsteilnehmern zu kommunizieren (z.B. Passanten, Fahrradfahrer, andere manuell fahrende Autofahrer).</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/CarEHMI.png" alt="Auto mit einem eHMI">
+                </div>
+              </div>
+  
               <div class="row project-item-row">
-                <h2 class="center-heading">VR Study</h2>
-                <div class="col-12 col-md-6 image-col">
-                  <img class="project-images" src="assets/City.png" alt="Projektbild 1">
-                </div>
                 <div class="col-12 col-md-6 card-text-col">
                   <div class="card project-card">
-                    <p class="project-teaser">VR Simulation mit Unity</p>
-                    <h2 >Bachelor Thesis</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel urna vestibulum tincidunt.</p>
-                  </div>
-                </div>
-  
-                <div class="col-12 col-md-6 card-text-col">
-                  <div class="card project-card">
-                    <p class="project-teaser">Videospiel mit LibGDX</p>
-                    <h2>Marvelous Mashup</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel urna vestibulum tincidunt.</p>
+                    <h3 class="project-card-heading">Stadt in Unity</h3>
+                    <p>Dafür habe ich erstmal einige Assets aus dem Unity Asset Store benutzt, um eine Stadt zu erstellen. In dieser Stadt soll es dann möglich sein, verschiedene Szenarien mit verschiedenen Verkehrsteilnehmern (Passant, Autofahrer, Fahrradfahrer) zu testen.</p>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 image-col">
-                  <img class="project-images" src="assets/MarvelousMashup1.png" alt="Projektbild 2">
+                  <img class="project-images" src="assets/City.png" alt="Stadt in Unity">
                 </div>
-  
-                <div class="col-12 col-md-6 image-col">
-                  <img class="project-images" src="assets/Calfriendar7.png" alt="Projektbild 1">
-                </div>
+              </div>
+
+              <div class="row project-item-row row-reverse">
                 <div class="col-12 col-md-6 card-text-col">
                   <div class="card project-card">
-                    <p class="project-teaser">App Mockup mit Figma</p>
-                    <h2 >Calfriendar</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel urna vestibulum tincidunt.</p>
+                    <h3 class="project-card-heading">Simulatoren</h3>
+                    <p>Um eine Studie durchzuführen muss man Studienteilnehmern durch ein Szenario navigieren lassen und dafür braucht man Simulatoren. Dabei wurden hier für jeden Verkehrsteilnehmer VR-Brillen benutzt. Beim Simulator für Passanten kann man einfach durch laufen in der Simulation navigieren. Beim Autofahrer wurde zusätzlich ein Lenkrad mit Pedalen hinzugefügt, um mit dem Auto in der virtuellen Welt zu fahren. Beim Fahrrad Simulator hat man ein echtes Fahrrad, einen Speedometer, der die Geschwindigkeit misst und eine Windmaschine, die dementsprechend Wind bläßt, um realen Wind zu simulieren.</p>
                   </div>
+                </div>
+                <div class="col-4 col-md-2 image-col">
+                  <img class="project-images" src="assets/BicycleSimulator.jpg" alt="Fahrradfahrer Simulator">
+                </div>
+                <div class="col-4 col-md-2 image-col">
+                  <img class="project-images" src="assets/DriverSimulator.jpg" alt="Autofahrer Simulator">
+                </div>
+                <div class="col-4 col-md-2 image-col">
+                  <img class="project-images" src="assets/PedestrianSImulator.jpg" alt="Fußgänger Simulator">
                 </div>
               </div>
 
               <div class="row project-item-row">
-                <h2 class="center-heading">Marvelous Mashup</h2>
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Fußgänger</h3>
+                    <p>Hier sieht man die POV des Fußgängers. Der Fußgänger soll hierbei die Straße überqueren und die grüne Zone erreichen. Das autonom-fahrende Fahrzeug signalisiert hierbei, dass es den Fahrradfahrer über die Straße lässt.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/PedestrianIntentionPOV2.png" alt="Fußgänger Szenario">
+                </div>
+              </div>
+
+              <div class="row project-item-row row-reverse">
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Autofahrer</h3>
+                    <p>Hier sieht man die POV des Autofahrers. Der Autofahrer soll hierbei nach links abbiegen und die grüne Zone erreichen. Hierbei liegt ein Deadlock vor, da alle Auto nach links abbiegen wollen. Das autonom-fahrende Fahrzeug signalisiert dem Autofahrer, dass es ihm die Vorfahrt gibt.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/DriverPOV.png" alt="Fußgänger Szenario">
+                </div>
+              </div>
+
+              <div class="row project-item-row">
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Fahrradfahrer</h3>
+                    <p>Hier sieht man die POV des Fahrradfahrers. Der Fahrradfahrer soll hierbei geradeaus fahren und die grüne Zone erreichen. Das autonom-fahrende Fahrzeug signalisiert hierbei, dass es den Fahrradfahrer gesehen hat.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/BicyclePOV.png" alt="Fußgänger Szenario">
+                </div>
+              </div>
+
+
+
+              <div class="row project-item-row row-reverse">
+                <h2 class="center-heading project-heading-margin project-item-heading" id="project-heading-2">Marvelous Mashup</h2>
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Start Screen</h3>
+                    <p>Marvelous Mashup ist ein kleines Videospiel, welches in einer Gruppe von 4-6 Studierenden im 4. Semester durchgeführt wurde. 
+                      Hierbei war ich für die Erstellung der User Interfaces, Screens, Buttons, Map, Charaktere und Gegner-KI verantwortlich. Außerdem habe ich auch beim Editor mitgewirkt. Hier sieht man den Start Screen des Videospiels.</p>
+                  </div>
+                </div>
                 <div class="col-12 col-md-6 image-col">
                   <img class="project-images" src="assets/MarvelousMashup1.png" alt="Projektbild 1">
                 </div>
+              </div>
+  
+              <div class="row project-item-row">
                 <div class="col-12 col-md-6 card-text-col">
                   <div class="card project-card">
-                    <p class="project-teaser">VR Simulation mit Unity</p>
-                    <h2 >Bachelor Thesis</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel urna vestibulum tincidunt.</p>
+                    <h3 class="project-card-heading">Editor Screen</h3>
+                    <p>Beim Editor Screen konnte man sich zwischen drei verschiedenen Editoren entscheiden. Dabei konnte man die Partieeinstellungen, die Szenarioeinstellungen oder die Charaktereinstellungen anpassen.</p>
                   </div>
                 </div>
-  
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/MarvelousMashup2.png" alt="Projektbild 2">
+                </div>
+              </div>
+
+              <div class="row project-item-row row-reverse">
                 <div class="col-12 col-md-6 card-text-col">
                   <div class="card project-card">
-                    <p class="project-teaser">Videospiel mit LibGDX</p>
-                    <h2>Game Screen</h2>
-                    <p>Hier kann man den Game Screen sehen, in dem man ein Spielfeld mit Charakteren sieht. Dabei hat der Benutzer auch unten eine Leiste für Informationen und Eingaben.
-                    </p>
+                    <h3 class="project-card-heading">Szenario Editor Screen</h3>
+                    <p>Beim Szenario Editor Screen sieht man das Spielfeld und kann es beliebig mit weiteren Feldern erweitern. Außerdem kann man durch Klicken auf Felder auch den Typen des Feldes (Portal, Stein, Gras) ändern.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/MarvelousMashup5.png" alt="Projektbild 1">
+                </div>
+              </div>
+
+              <div class="row project-item-row">
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Charakter Editor Screen</h3>
+                    <p>Beim Charakter Editor Screen sieht man alle Charaktere, die es bisher gibt. Durch Klicken auf einen der Charaktere, kann man die Werte eines Charakters verändern und anpassen.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/MarvelousMashup4.png" alt="Projektbild 2">
+                </div>
+              </div>
+
+              <div class="row project-item-row row-reverse">
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Team Selection Screen</h3>
+                    <p>Der Team Selection Screen erscheint, nachdem man einen weiteren Spieler gefunden hat, mit dem man spielen kann. Dabei kann man nun von den 12 Charakteren 6 auswählen, die in das eigene Team kommen.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/MarvelousMashup6.png" alt="Projektbild 1">
+                </div>
+              </div>
+
+              <div class="row project-item-row">
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Game Screen</h3>
+                    <p>Nach dem Speichern kommt man zum Game Screen. Das Spiel beginnt und man muss in den Besitz aller Infinity Steine kommen, um das Spiel zu gewinnen. Ab einer bestimmten Rundenanzahl erscheint auch Thanos, um sich alle Steine selber zu schnappen.</p>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 image-col">
                   <img class="project-images" src="assets/MarvelousMashup7.png" alt="Projektbild 2">
                 </div>
-  
-                <div class="col-12 col-md-6 image-col">
-                  <img class="project-images" src="assets/MarvelousMashup6.png" alt="Projektbild 1">
-                </div>
+              </div>
+
+
+
+              <div class="row project-item-row row-reverse">
+                <h2 class="center-heading project-heading-margin project-item-heading" id="project-heading-3">Calfriendar</h2>
                 <div class="col-12 col-md-6 card-text-col">
                   <div class="card project-card">
-                    <p class="project-teaser">App Mockup mit Figma</p>
-                    <h2 >Selection Screen</h2>
-                    <p>Hier sieht man einen Selection Screen, bei dem man aus den verschiedenen Charakteren 6 auswählen kann.</p>
+                    <h3 class="project-card-heading">Figma Mockup</h3>
+                    <p>Dieses Projekt handelt von der reinen Gestaltung einer App in Figma. Die Vorgaben an die App waren dabei sehr gering, man durfte also eine eigene innovative App-Idee entwerfen. Dabei habe ich mit einem Kommilitonen eine Kalender-App mit einem sozialen Netzwerk verbunden. Man kann also innerhalb des Kalenders Gruppen erstellen Termine als Gruppe eintragen und natürlich Nachrichten schreiben.</p>
                   </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/Calfriendar7.png" alt="Projektbild 1">
+                </div>
+              </div>
+  
+              <div class="row project-item-row">
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Styleguide</h3>
+                    <p>Dabei hat man mit der Erstellung eines Styleguides begonnen und demnach die Farben, Schriftart und Größe und die Symbole definiert. Dabei haben wir uns für ein rötliches Design entschieden</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/Calfriendar5.png" alt="Projektbild 2">
+                </div>
+              </div>
+
+              <div class="row project-item-row row-reverse">
+                <div class="col-12 col-md-6 card-text-col">
+                  <div class="card project-card">
+                    <h3 class="project-card-heading">Buttons</h3>
+                    <p>Anschließend wurden auch die ersten Buttons, Toggle buttons und Slider designt.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 image-col">
+                  <img class="project-images" src="assets/Calfriendar6.png" alt="Projektbild 1">
                 </div>
               </div>
 
               <div class="row project-item-row">
-                <h2 class="center-heading">Calfriendar</h2>
-                <div class="col-12 col-md-6 image-col">
-                  <img class="project-images" src="assets/City.png" alt="Projektbild 1">
-                </div>
                 <div class="col-12 col-md-6 card-text-col">
                   <div class="card project-card">
-                    <p class="project-teaser">VR Simulation mit Unity</p>
-                    <h2 >Bachelor Thesis</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel urna vestibulum tincidunt.</p>
+                    <h3 class="project-card-heading">Screens</h3>
+                    <p>Hier kann man den Log-In Screen, den Nachrichten Screen und den Kalender Screen sehen. Das Mockup wurde in Figma auch interaktiv gestaltet, also man konnte sich durch die verschiedenen Screens klicken.</p>
                   </div>
                 </div>
-  
-                <div class="col-12 col-md-6 card-text-col">
-                  <div class="card project-card">
-                    <p class="project-teaser">Videospiel mit LibGDX</p>
-                    <h2>Marvelous Mashup</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel urna vestibulum tincidunt.</p>
-                  </div>
+                <div class="col-4 col-md-2 image-col">
+                  <img class="project-images" src="assets/Calfriendar.png" alt="Fahrradfahrer Simulator">
                 </div>
-                <div class="col-12 col-md-6 image-col">
-                  <img class="project-images" src="assets/MarvelousMashup1.png" alt="Projektbild 2">
+                <div class="col-4 col-md-2 image-col">
+                  <img class="project-images" src="assets/Calfriendar2.png" alt="Autofahrer Simulator">
                 </div>
-  
-                <div class="col-12 col-md-6 image-col">
-                  <img class="project-images" src="assets/Calfriendar7.png" alt="Projektbild 1">
-                </div>
-                <div class="col-12 col-md-6 card-text-col">
-                  <div class="card project-card">
-                    <p class="project-teaser">App Mockup mit Figma</p>
-                    <h2 >Calfriendar</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo vel urna vestibulum tincidunt.</p>
-                  </div>
+                <div class="col-4 col-md-2 image-col">
+                  <img class="project-images" src="assets/Calfriendar3.png" alt="Fußgänger Simulator">
                 </div>
               </div>
+
   
             </div>
             <div class="col-md-3 sidebar-col">
-              <p class="sidebar">sidebar</p>
+              <ul class="project-content-of-table" id="project-content-of-table">
+              </ul>
             </div>
           </div>
         </div>
@@ -733,18 +940,19 @@
   </div>
 
   <script src="scripts/testscript.js"></script>
+  <script src="scripts/sidebar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 <footer class="bg-body-tertiary py-4" style="background-color: #edf6ff;">
   <div class="container">
       <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 footer-col">
               <h3>Kontakt</h3>
               Simon Kopp<br>
               E-Mail: <a href="mailto:simon_kopp@web.de">simon_kopp@web.de</a><br>
           </div>
-          <div class="col-md-4" style="display: flex; flex-direction: column;">
+          <div class="col-md-4 footer-col" style="display: flex; flex-direction: column;">
               <h3>Icons</h3>
               <a href="https://www.flaticon.com/free-icons/abilities" title="abilities icons">Abilities icons created by Uniconlabs - Flaticon</a>
               <a href="https://www.flaticon.com/free-icons/project" title="project icons">Project icons created by dDara - Flaticon</a>
