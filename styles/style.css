@@ -99,12 +99,6 @@ img {
     display: flex!important;
 }
 
-.container-test {
-    display: flex;
-    overflow-x: hidden; /* Versteckt die horizontale Scrollbar */
-    transition: transform 1s ease; /* Fügt eine sanfte Animation hinzu */
-}
-
 .page {
     width: 100vw;
     transition: transform 1s ease; /* Fügt eine sanfte Animation hinzu */
@@ -126,19 +120,19 @@ button {
 }
 
 .projects-page {
+    width: 100vw;
+    position: absolute;
+    left: 100%;
     display: none;
+    @media (max-width: 767.98px) {
+        overflow-x: hidden;
+    }
 }
 
 .wrapper {
     display: flex;
-    width: 300vw;
     /* overflow: hidden; */
 }
-
-.flex-wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-  }
 
 .skillset-row {
     display: flex;

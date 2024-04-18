@@ -30,13 +30,6 @@ let projectsPageHeight = projectsPage.offsetHeight + "px";
 skillsPage.style.display = "none";
 projectsPage.style.display = "none";
 
-console.log("skillsPageHeight");
-console.log(skillsPageHeight);
-console.log("startPageHeight");
-console.log(startPageHeight);
-console.log("projectsPageHeight");
-console.log(projectsPageHeight);
-
 moveButtonRight.addEventListener('click', () => {
     projectsPage.style.display = "block";
     wrapper.style.height = projectsPageHeight;

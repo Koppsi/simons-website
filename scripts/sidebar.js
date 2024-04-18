@@ -11,10 +11,8 @@ for (let index = 0; index < headings.length; index++) {
 }
 
 let list_items = document.querySelectorAll(".list-element");
-console.log(list_items[1]);
 list_items.forEach(function(list_item) {
     list_item.addEventListener("click", function() {
-        console.log(list_item.id)
         if (list_item.id == "list-element-1") {
             const heading = document.getElementById("project-heading-1")  
 
